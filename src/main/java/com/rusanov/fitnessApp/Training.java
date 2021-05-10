@@ -43,19 +43,17 @@ public class Training {
     private void showResult() {
         String trainingTime;
         if (elapsedTime.toMinutes() == 0) {
-            trainingTime = Long.toString(elapsedTime.toSeconds());
+            trainingTime = Long.toString(elapsedTime.toSeconds()) + "sec";
         } else {
             trainingTime = elapsedTime.toMinutes() + " min";
         }
-        StringBuilder builder = new StringBuilder();
-        builder
-                .append("Result:\n Training type: ")
-                .append(selectedTraining)
-                .append("\nTraining duration:\n")
-                .append(trainingTime)
-                .append("Burned calories:")
-                .append(String.format("%.2f",wastedCalories));
-        System.out.println(builder.toString());
+        String builder = "Result:\nTraining type: " +
+                selectedTraining +
+                "\nTraining duration:\n" +
+                trainingTime +
+                "\nBurned calories:" +
+                String.format("%.2f", wastedCalories);
+        System.out.println(builder);
     }
 
 

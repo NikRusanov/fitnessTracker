@@ -34,7 +34,7 @@ public class Login {
         if(!users.getUsers().contains(user)) {
             users.addUser(user);
         }  else {
-            System.out.println("Login  In" + user.getLogin());
+            System.out.println("Hello  " + user.getLogin());
         }
         serializer.usersToXml(users);
         return user;
