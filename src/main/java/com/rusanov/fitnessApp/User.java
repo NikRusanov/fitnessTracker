@@ -61,9 +61,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "Hello " +
-                " " + login + "!" +
-                "\nTotal calories burned:" + calories +
+        return  "\nTotal calories burned:" + calories +
                 "\n On last session:" + lastSession;
     }
 }

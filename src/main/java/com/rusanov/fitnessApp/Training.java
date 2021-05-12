@@ -49,7 +49,7 @@ public class Training {
         }
         String builder = "Result:\nTraining type: " +
                 selectedTraining +
-                "\nTraining duration:\n" +
+                "\nTraining duration:" +
                 trainingTime +
                 "\nBurned calories:" +
                 String.format("%.2f", wastedCalories);

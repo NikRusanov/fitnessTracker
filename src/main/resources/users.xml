@@ -2,12 +2,17 @@
 <users>
     <user>
         <login>test</login>
-        <calories>1.8614166666666667</calories>
-        <lastSession>0.3058611111111111</lastSession>
+        <calories>3.0291527777777776</calories>
+        <lastSession>1.1677361111111109</lastSession>
     </user>
     <user>
         <login>login</login>
-        <calories>5.362027777777778</calories>
-        <lastSession>0.6111111111111112</lastSession>
+        <calories>16.69536111111111</calories>
+        <lastSession>11.333333333333334</lastSession>
+    </user>
+    <user>
+        <login>new_login</login>
+        <calories>11.444444444444445</calories>
+        <lastSession>11.444444444444445</lastSession>
     </user>
 </users>
